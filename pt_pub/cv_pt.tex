@@ -5,12 +5,14 @@
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[blue]{classic}                % idem
 
+
 \usepackage[T1]{fontenc}
 % character encoding
 %\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
 \usepackage[latin1]{inputenc}
 \usepackage{seqsplit}
 \usepackage[portuguese]{babel}
+
 
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
@@ -27,9 +29,9 @@
 \firstname{Nelson}
 \familyname{ \\ \\ Bilber Rodrigues}
 \title{Curriculum Vitae}               % optional, remove the line if not wanted
-\address{..... }{   Vila Nova de Gaia}{Portugal}    % optional, remove the line if not wanted
-\mobile{+351 ..........}                    % optional, remove the line if not wanted
-\email{nbilber@gmail.com}                      % optional, remove the line if not wanted
+\address{ .... Portugal}    % optional, remove the line if not wanted
+\mobile{+351 ....}                    % optional, remove the line if not wanted
+\email{rodrigues.b.nelson@gmail.com}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 \photo[84pt]{pic.jpg}          % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 
@@ -44,13 +46,15 @@
 \cvcomputer{Data Nascimento}{\small 26 de Março de 1984\normalsize}{}{\small \normalsize}
 \cvcomputer{Estado civil}{\small Solteiro\normalsize}{}{\small \normalsize}
 \cvcomputer{Carta de Condução}{\small B\normalsize}{}{\small \normalsize}
+%\cvcomputer{LinkedIn}{\small \url{http://it.linkedin.com/in/goivan}\normalsize}{Elance}{\small \url{http://ntrp.elance.com}\normalsize}
+%\cvcomputer{Blog}{\small \url{http://ntrpivan.blogspot.com}\normalsize}{Skype}{\small nelson.bilber.rodrigues}
 \vspace{4mm}
 %Section
 \section{Experiência profissional}
 \cvline{}{\Large Engenheiro de Software}
 \cvline{jun. 2013 - Presente}{Coollink - Serviços Informáticos e de Consultoria, Lda.}
-\cvline{1 ano 7 meses}{\small \textbf{Plataformas de \textit{trading}}}
-\cvline{}{\small Implementação de um sistema de informação para o \textit{Banco Carregosa} que permite a negociação de produtos em mercados financeiros. \linebreak A minha participação neste projeto insere-se em duas componentes distintas: Interface Gráfica (GUI) e Serviços de Middleware. \linebreak A GUI é desenvolvida com recurso a ferramentas \textit{cross-platform} nomeadamente a Qt Framework e CMake tools. Os serviços \textit{Middleware} são responsáveis alimentar o sistema com informação proveniente de múltiplas fontes. Estão desenvolvidos baseados numa arquitectura multithread.	Em termos técnicos a linguagem predominante é o C++. Ao longo do projecto tem sido possível aprender e solidificar os meus conhecimentos sobre programação orientada a objectos, trabalhar com bibliotecas genéricas como STL e BOOST e  aprofundar conceitos como paralelismo e concorrência.}
+\cvline{1 ano 11 meses}{\small \textbf{Plataformas de \textit{trading}}}
+\cvline{}{\small Implementação de um sistema de informação para o \textit{Banco Carregosa} que permite a negociação de produtos em mercados financeiros. \linebreak A minha participação neste projeto insere-se em duas componentes distintas: Interface Gráfica (GUI) e Serviços de Middleware. \linebreak A GUI é desenvolvida com recurso a ferramentas \textit{cross-platform} nomeadamente a Qt Framework e CMake tools. Os serviços \textit{Middleware} são responsáveis alimentar o sistema com informação proveniente de múltiplas fontes.  Em termos técnicos a linguagem predominante é o C++. Ao longo do projecto tem sido possível solidificar os meus conhecimentos sobre os conceitos de paralelismo, concorrência e utilização de bibliotecas genéricas: STL e BOOST.}
 \vspace{1mm}
 \cvline{}{\small \textit{Sector: Financeiro}}
 \cvline{}{\small \textit{Área: Sistemas distribuídos, Sistemas críticos, Desenvolvimento de interfaces gráficas.}}
@@ -59,44 +63,44 @@
 \cvline{}{\Large Engenheiro de Software, Investigador}
 \cvline{jul. 2012 - maio 2013}{Instituto de Engenharia de Sistemas e Computadores do Porto (INESC TEC)}
 \cvline{11 meses}{\small \textbf{Imagiologia médica em Mac OSX}}
-\cvline{}{\small Aplicação para Mac OSX que possibilita a gestão do \textit{workflow} de exames (DICOM) associados aos pacientes de uma instituição médica. Este projeto permitiu ganhar conhecimentos sobre \textit{Cocoa Framework} explorando as suas capacidades no desenvolvimento de interfaces gráficas.}
+\cvline{}{\small Aplicação para Mac OSX que possibilita a gestão de informação relacionada com os exames associados aos pacientes de uma instituição médica. Utilização da Cocoa Framework explorando as suas capacidades no desenvolvimento de interfaces gráficas.}
 \vspace{1mm}
 \cvline{}{\small \textit{Sector: Saúde}} 
-\cvline{}{\small \textit{Área: Multimédia, Desenvolvimento de interfaces gráficas}}
-\cvline{}{\small \textit{Tecnologias utilizadas: Objective-C; Cocoa; Model-View-Controller; DICOM; Web Sockets; REST; JSON;jQuery}}
+\cvline{}{\small \textit{Área: Multimédia, Desenvolvimento de interfaces gráficas.}}
+\cvline{}{\small \textit{Tecnologias utilizadas: Objective-C; Cocoa; Model-View-Controller; Web Services; Web Sockets; REST; JSON; }}
 \vspace{4mm}
 \cvline{}{\Large Engenheiro de Software, Investigador}
 \cvline{set. 2010 - ago. 2012}{Instituto de Engenharia de Sistemas e Computadores do Porto (INESC TEC)}
 \cvline{2 anos}{\small\textbf{Desenvolvimento de um sistema de vigilância baseado em Robôs}}
-\cvline{}{\small Desenvolvimento de uma plataforma que permite a gestão, controlo da telemetria e supervisão de robôs. Implementação de uma interface gráfica intuitiva e interativa, que permite a gestão de rotas e eventos. A plataforma também está capacitada para a apresentação de \textit{streaming} de vídeo e áudio.} 
+\cvline{}{\small Desenvolvimento de uma plataforma de gestão que permite o controlo e supervisão de robots. Implementação de uma interface gráfica intuitiva e interactiva, que permite a gestão de rotas e eventos. A plataforma também está capacitada para a apresentação de \textit{streaming} de vídeo e áudio.} 
 \vspace{1mm}
-\cvline{}{\small \textit{Sector: Segurança e vigilância}} 
-\cvline{}{\small \textit{Área: Multimédia, Desenvolvimento de interfaces gráficas}}
-\cvline{}{\small \textit{Tecnologias utilizadas: Windows Presentation Foundation (WPF);PostgreSQL; C\#; \textit{Microsoft Patterns \& Practices}}}
+\cvline{}{\small \textit{Sector: Segurança}} 
+\cvline{}{\small \textit{Área: Multimédia, Desenvolvimento de interfaces gráficas.}}
+\cvline{}{\small \textit{Tecnologias utilizadas: Windows Presentation Foundation (WPF);PostgreSQL; C\#.}}
 \vspace{4mm}
 \cvline{}{\Large Engenheiro de Software, Investigador}
 \cvline{set. 2009 - ago. 2010}{Instituto de Engenharia de Sistemas e Computadores do Porto (INESC TEC)}
 \cvline{ 1 ano}{\small \textbf{Desenvolvimento de um sistema de informação que permite  a classificação de parcelas com vinha e gestão dos direitos de plantação}}
-\cvline{}{\small Aplicação agregadora que reúne e normaliza as funcionalidades de um vasto conjunto de aplicações numa única aplicação. Tecnicamente, possibilitou ganhar conhecimentos em \textit{Windows Presentation Foundation} aplicando as \textit{Microsoft Patterns \& Practices}, nomeadamente Prism.}
+\cvline{}{\small  Aplicação que reúne funcionalidades e tarefas de um vasto conjunto de aplicações distintas. Permitindo desta a forma melhorar  e simplificar o \textit{workflow}, facilitando a realização das tarefas diárias. Possibilitou ganhar  conhecimentos em \textit{Microsoft Patterns \& Practices}, nomeadamente Prism.}
 \vspace{1mm} 
-\cvline{}{\small \textit{Área: Sistemas de Informação Geográfica}}
-\cvline{}{\small \textit{Tecnologias utilizadas: C\#; Windows Presentation Foundation (WPF); Microsoft SQL server 2008; Model-View-Controller; Model-View-Presenter; Model-View-ViewModel}}
+\cvline{}{\small \textit{Área: Sistemas de Informação Geográfica.}}
+\cvline{}{\small \textit{Tecnologias utilizadas: C\#; Windows Presentation Foundation (WPF); Microsoft SQL server 2008; Model-View-Controller; Model-View-Presenter; Model-View-ViewModel.}}
 \vspace{4mm}
 \cvline{}{\Large Engenheiro de Software, Investigador}
 \cvline{set. 2008 - ago. 2009}{Instituto de Engenharia de Sistemas e Computadores do Porto (INESC TEC)}
 \cvline{ 1 ano}{\small \textbf{ ``Desenvolvimento de uma aplicação Web, de acordo com as especificidades da Região Demarcada do Douro''}}
-\cvline{}{\small Aplicação Web dinâmica, que visa agilizar o processo de cadastro e classificação de parcelas com vinha da Região Demarcada do Douro. Esta aplicação permite otimização da emissão de documentos, validando a coerência da informação neles contida.} 
+\cvline{}{\small Aplicação Web dinâmica, que visa agilizar o processo de cadastro e classificação de parcelas com vinha da Região Demarcada do Douro. Esta aplicação permite optimização da emissão de documentos, validando a coerência da informação neles contida..} 
 \vspace{1mm}
-\cvline{}{\small\textit{Área: Multimédia, Desenvolvimento de interfaces gráficas, Sistemas de Informação Geográfica}}
-\cvline{}{\small\textit{ASP.NET 3.5 (C\#),  Windows Communication Foundation (WCF),  AJAX ,Silverlight 2.0, PostgreSQL + PostGIS}}
+\cvline{}{\small\textit{Área: Multimédia, Desenvolvimento de interfaces gráficas, Sistemas de Informação Geográfica.}}
+\cvline{}{\small\textit{ASP.NET 3.5 (C\#),  Windows Communication Foundation (WCF),  AJAX ,Silverlight 2.0, PostgreSQL + PostGIS.}}
 \vspace{4mm}
 \cvline{}{\Large Engenheiro de Software, Investigador}
 \cvline{fev. 2005 - set. 2005}{Instituto de Engenharia de Sistemas e Computadores do Porto (INESC TEC)}
 \cvline{8 meses}{\small \textbf{Sistema Corporate TV baseado em tecnologias Web}}
-\cvline{}{\small Desenvolvimento de uma aplicação Web capaz de visualizar  de forma dinâmica e interativa, vídeo conjuntamente com outro tipo de informação, como por exemplo: sobreposição de vídeo, imagem e texto. } 
+\cvline{}{\small Desenvolvimento de uma aplicação Web capaz de visualizar  de forma dinâmica e interativa, vídeo conjuntamente com outro tipo de informação, como por exemplo: imagem e texto. } 
 \vspace{1mm}
-\cvline{}{\small \textit{Área: Multimédia}}
-\cvline{}{\small \textit{Tecnologias utilizadas: PHP, HTML, XML, Javascript e PostgreSQL}}
+\cvline{}{\small \textit{Área: Multimédia.}}
+\cvline{}{\small \textit{Tecnologias utilizadas: PHP, HTML, XML, Javascript e PostgreSQL.}}
 \vspace{4mm}
 %Section
 \section{Artigos publicados}
@@ -120,7 +124,7 @@
 \section{Participação em eventos promocionais}
 \cvline{2012}{Participação em entrevistas aos meios de comunicação sobre o projeto ``RobotVigilante''. Nomeadamente aos canais de televisão RTP e SIC, rádios e  revista  Exame Informática} 
 \cvline{2012}{Participação no Fórum do mar pelo INESC Porto, com o projeto ``RobotVigilante''} 
-\cvline{2012}{Participação no Festival de Robótica 2012 com o projeto ``RobotVigilante''. \linebreak O \textit{feedback} sobre o protótipo desenvolvido foi muito positivo. Tendo sido destacado pela imprensa, nomeadamente o Jornal de Notícias, aparecendo na capa da edição de 16 de Abril de 2012.}
+\cvline{2012}{Participação no Festival de Robótica 2012 com o projeto ``RobotVigilante''. \linebreak O feedback sobre o protótipo desenvolvido foi muito positivo. Tendo sido destacado pela imprensa, nomeadamente o Jornal de Notícias, aparecendo na capa da edição de 16 de Abril de 2012.}
 \cvline{2011}{Participação na 11ª Conferência da Associação Portuguesa de Sistemas de Informação (CAPSI 2011). \linebreak Tema: ``A Gestão da Informação na era do Cloud Computing''}
 \cvline{2010}{Participação no evento Microsoft WebDay 2010}
 \cvline{2009}{Participação na International Association for Development of the Information Society (IADIS), International Conference 2009. \linebreak Tema : ``WWW/INTERNET 2009''}
@@ -132,7 +136,7 @@
 \vspace{4mm}
 %Section
 \section{Aptidões e competências profissionais}
-\cvline{Idiomas}{Português - oralidade: muito bom; escrita: muito bom; leitura: muito bom \linebreak Inglês - oralidade: bom; escrita: suficiente; leitura: bom \linebreak Francês - oralidade: suficiente; escrita: noções; leitura: suficiente }
+\cvline{Idiomas}{Português - oralidade: muito bom; escrita: muito bom; leitura: muito bom \linebreak Inglês - oralidade: suficiente; escrita: suficiente; leitura: bom \linebreak Francês - oralidade: suficiente; escrita: noções; leitura: suficiente }
 \vspace{4mm}
 %Section
 \section{Interesses e passatempos}
